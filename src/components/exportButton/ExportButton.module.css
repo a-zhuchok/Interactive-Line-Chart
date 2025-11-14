@@ -1,0 +1,27 @@
+.button {
+  padding: 6px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #374151;
+}
+
+.button:hover {
+  background-color: #f9fafb;
+  border-color: #9ca3af;
+}
+
+:global(.dark) .button {
+  background-color: #374151;
+  border-color: #4b5563;
+  color: #ffffff;
+}
+
+:global(.dark) .button:hover {
+  background-color: #4b5563;
+  border-color: #6b7280;
+}

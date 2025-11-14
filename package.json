@@ -1,0 +1,31 @@
+{
+  "name": "frontend-interview-task",
+  "version": "1.0.0",
+  "description": "Build an interactive **Line Chart** to visualize A/B test statistics.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:gh-pages": "tsc && vite build --mode gh-pages",
+    "preview": "vite preview",
+    "predeploy": "npm run build:gh-pages",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "recharts": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.3",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "gh-pages": "^6.3.0",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.1"
+  }
+}
